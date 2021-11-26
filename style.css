@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+    background: #0d1a2d;
+    color: #7D90B0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 300;
+
+  }
+
+img {
+  max-width: 100%;
+}
+
+.item a {
+    color: #fff;
+}
+
+.equilibrium img {
+  
+  transition: 100ms;
+}
+
+.equilibrium { 
+    border-radius: 8px;
+    background-color: #2FC1C1;
+    background-image: url(./images/icon-view.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    height:300px;
+    
+}
+
+.equilibrium img:hover{ 
+    opacity: 0.2;
+}
+
+.item h2 a {
+    margin: 0;
+    font-weight: 600;
+}
+.item h2 a:hover, .creat-by a:hover{
+    color: #2FC1C1;
+}
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li {
+  display: flex;
+  gap: 5px;
+}
+.ETH {
+    color:#2FC1C1;
+    font-weight: 600;
+}
+
+.main {
+  max-width: 350px;
+  padding: 20px;
+  background: #15273f;
+  border-radius: 15px;
+  
+  
+}
+.main a {
+    text-decoration: none;
+}
+
+.item {
+  margin: 20px 0px;
+}
+
+.hr {   
+    border: 0px solid;
+    height: 0.7px; 
+    background: rgba(129, 45, 211, 0.5);
+    columns: #fff;
+}
+
+.creat-by {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar img {
+  border-radius: 50%;
+  border: 1px solid #fff;
+  max-width: 35px;
+}
+
+/*Footer*/
+.footer {
+  font-size: 0.6875rem;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+}
+
+.footer a {
+  color: hsl(228, 45%, 44%);
+}
+
+
